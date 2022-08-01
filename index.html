@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dark mode demo app</title>
+    <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="light.css"
+      media="(prefers-color-scheme: light)"
+    />
+    <link
+      rel="stylesheet"
+      href="dark.css"
+      media="(prefers-color-scheme: dark)"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Hi there, Let's do a quick implementation of dark mode!!</h1>
+      <dark-mode-toggle
+        id="dark-mode-toggle-1"
+        appearance="toggle"
+        dark="Dark"
+        light="Light"
+      ></dark-mode-toggle>
+    </header>
+    <img
+      src="https://i.postimg.cc/mDDBx3G8/photo-1546587348-d12660c30c50.jpg"
+      alt="Nature"
+      width="320"
+      height="195"
+    />
+    <p>Check out the dark mode toggle in the top right corner!</p>
+    <input name="text" type="text" />
+    <input part="lightRadio" id="l" name="mode" type="radio" />
+  </body>
+</html>

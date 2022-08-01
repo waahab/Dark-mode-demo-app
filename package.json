@@ -1,0 +1,32 @@
+{
+  "name": "dark-mode-demo-app",
+  "version": "1.0.0",
+  "description": "A guide on how to quickly Add Dark Mode to your web app in just 3 steps",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "build": "echo This is a static template, there is no bundler or bundling involved!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesandbox-app/static-template.git"
+  },
+  "keywords": [
+    "angular",
+    "mode",
+    "webapp",
+    "javascript",
+    "react",
+    "vue",
+    "html"
+  ],
+  "author": "Ives van Hoorne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codesandbox-app/static-template/issues"
+  },
+  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "devDependencies": {
+    "serve": "^11.2.0"
+  }
+}
